@@ -1,0 +1,963 @@
+[
+  {
+    "conversation_id": "119237",
+    "brand": "Unknown",
+    "all_brands": [],
+    "customer_user_id": "105834",
+    "initial_customer_message": "@AppleSupport causing the reply to be disregarded and the tapped notification under the keyboard is opened\ud83d\ude21\ud83d\ude21\ud83d\ude21",
+    "all_customer_messages": "@AppleSupport causing the reply to be disregarded and the tapped notification under the keyboard is opened\ud83d\ude21\ud83d\ude21\ud83d\ude21",
+    "brand_reply": "",
+    "full_dialog": [
+      {
+        "role": "customer",
+        "author_id": "105834",
+        "text": "@AppleSupport causing the reply to be disregarded and the tapped notification under the keyboard is opened\ud83d\ude21\ud83d\ude21\ud83d\ude21",
+        "tweet_id": "119237"
+      }
+    ],
+    "message_count": 1,
+    "created_at": "Wed Oct 11 06:55:44 +0000 2017"
+  },
+  {
+    "conversation_id": "119239",
+    "brand": "ChaseSupport",
+    "all_brands": [
+      "ChaseSupport"
+    ],
+    "customer_user_id": "105835",
+    "initial_customer_message": "@76328 I really hope you all change but I'm sure you won't! Because you don't have to!",
+    "all_customer_messages": "@76328 I really hope you all change but I'm sure you won't! Because you don't have to!",
+    "brand_reply": "@105835 Your business means a lot to us. Please DM your name, zip code and additional details about your concern. ^RR https://t.co/znUu1VJn9r",
+    "full_dialog": [
+      {
+        "role": "brand",
+        "author_id": "ChaseSupport",
+        "text": "@105835 Your business means a lot to us. Please DM your name, zip code and additional details about your concern. ^RR https://t.co/znUu1VJn9r",
+        "tweet_id": "119238"
+      },
+      {
+        "role": "customer",
+        "author_id": "105835",
+        "text": "@76328 I really hope you all change but I'm sure you won't! Because you don't have to!",
+        "tweet_id": "119239"
+      }
+    ],
+    "message_count": 2,
+    "created_at": "Wed Oct 11 13:00:09 +0000 2017"
+  },
+  {
+    "conversation_id": "119246",
+    "brand": "VirginTrains",
+    "all_brands": [
+      "VirginTrains"
+    ],
+    "customer_user_id": "105836",
+    "initial_customer_message": "@VirginTrains see attached error message. I've tried leaving a voicemail several times in the past week https://t.co/NxVZjlYx1k",
+    "all_customer_messages": "@VirginTrains see attached error message. I've tried leaving a voicemail several times in the past week https://t.co/NxVZjlYx1k @VirginTrains I still haven't heard & the number I'm directed to by phone is a dead end & the live chat doesn't work. Can someone call me? @VirginTrains yep, I've tried laptop too several times over the past week and again today. I've tried different browsers too",
+    "brand_reply": "@105836 LiveChat is online at the moment - https://t.co/SY94VtU8Kq or contact 03331 031 031 option 1, 4, 3 (Leave a message) to request a call back",
+    "full_dialog": [
+      {
+        "role": "brand",
+        "author_id": "VirginTrains",
+        "text": "@105836 LiveChat is online at the moment - https://t.co/SY94VtU8Kq or contact 03331 031 031 option 1, 4, 3 (Leave a message) to request a call back",
+        "tweet_id": "119240"
+      },
+      {
+        "role": "customer",
+        "author_id": "105836",
+        "text": "@VirginTrains see attached error message. I've tried leaving a voicemail several times in the past week https://t.co/NxVZjlYx1k",
+        "tweet_id": "119241"
+      },
+      {
+        "role": "customer",
+        "author_id": "105836",
+        "text": "@VirginTrains I still haven't heard & the number I'm directed to by phone is a dead end & the live chat doesn't work. Can someone call me?",
+        "tweet_id": "119242"
+      },
+      {
+        "role": "brand",
+        "author_id": "VirginTrains",
+        "text": "@105836 Have you tried from another device, Miriam ^MM",
+        "tweet_id": "119243"
+      },
+      {
+        "role": "customer",
+        "author_id": "105836",
+        "text": "@VirginTrains yep, I've tried laptop too several times over the past week and again today. I've tried different browsers too",
+        "tweet_id": "119244"
+      },
+      {
+        "role": "brand",
+        "author_id": "VirginTrains",
+        "text": "@105836 It's working OK from here, Miriam. Does this link help https://t.co/0m2mpH15eh ? ^MM",
+        "tweet_id": "119245"
+      },
+      {
+        "role": "brand",
+        "author_id": "VirginTrains",
+        "text": "@105836 That's what we're here for Miriam \ud83d\ude0a The team should send you an email shortly ^HP",
+        "tweet_id": "119246"
+      }
+    ],
+    "message_count": 7,
+    "created_at": "Tue Oct 10 15:17:21 +0000 2017"
+  },
+  {
+    "conversation_id": "119250",
+    "brand": "AppleSupport",
+    "all_brands": [
+      "AppleSupport"
+    ],
+    "customer_user_id": "105837",
+    "initial_customer_message": "@105838 @AppleSupport Me too am suffering , hope the can find a solution",
+    "all_customer_messages": "@105838 @AppleSupport Me too am suffering , hope the can find a solution @AppleSupport hi #apple, I\u2019ve a concern about the latest ios is too slow on #iphone6 and i am not happy with it. Any solution please?",
+    "brand_reply": "@105837 We can help. Which version of iOS are you on? You can find that in Settings > General > About. Reply in DM. https://t.co/GDrqU22YpT",
+    "full_dialog": [
+      {
+        "role": "brand",
+        "author_id": "AppleSupport",
+        "text": "@105837 We can help. Which version of iOS are you on? You can find that in Settings > General > About. Reply in DM. https://t.co/GDrqU22YpT",
+        "tweet_id": "119248"
+      },
+      {
+        "role": "customer",
+        "author_id": "105837",
+        "text": "@105838 @AppleSupport Me too am suffering , hope the can find a solution",
+        "tweet_id": "119249"
+      },
+      {
+        "role": "customer",
+        "author_id": "105838",
+        "text": "@AppleSupport hi #apple, I\u2019ve a concern about the latest ios is too slow on #iphone6 and i am not happy with it. Any solution please?",
+        "tweet_id": "119250"
+      }
+    ],
+    "message_count": 3,
+    "created_at": "Wed Oct 11 07:37:27 +0000 2017"
+  },
+  {
+    "conversation_id": "119253",
+    "brand": "AppleSupport",
+    "all_brands": [
+      "AppleSupport"
+    ],
+    "customer_user_id": "105839",
+    "initial_customer_message": "I just updated my phone and suddenly everything takes ages to load wtf @76099 this update sux I hate it fix it bye",
+    "all_customer_messages": "I just updated my phone and suddenly everything takes ages to load wtf @76099 this update sux I hate it fix it bye",
+    "brand_reply": "@105839 Thanks for reaching out to us. We are always happy to help. Send us a DM so we can look into this together. https://t.co/GDrqU22YpT",
+    "full_dialog": [
+      {
+        "role": "brand",
+        "author_id": "AppleSupport",
+        "text": "@105839 Thanks for reaching out to us. We are always happy to help. Send us a DM so we can look into this together. https://t.co/GDrqU22YpT",
+        "tweet_id": "119252"
+      },
+      {
+        "role": "customer",
+        "author_id": "105839",
+        "text": "I just updated my phone and suddenly everything takes ages to load wtf @76099 this update sux I hate it fix it bye",
+        "tweet_id": "119253"
+      }
+    ],
+    "message_count": 2,
+    "created_at": "Wed Oct 11 07:21:34 +0000 2017"
+  },
+  {
+    "conversation_id": "119256",
+    "brand": "SpotifyCares",
+    "all_brands": [
+      "SpotifyCares"
+    ],
+    "customer_user_id": "105840",
+    "initial_customer_message": "@SpotifyCares Thanks! Version 8.4.22.857 armv7 on anker bluetooth speaker on Samsung Galaxy Tab A (2016) Model SM-T280 Does distance from speaker matter?",
+    "all_customer_messages": "@SpotifyCares Thanks! Version 8.4.22.857 armv7 on anker bluetooth speaker on Samsung Galaxy Tab A (2016) Model SM-T280 Does distance from speaker matter? @76495 @91226 Please help! Spotify Premium skipping through songs constantly on android tablet & bluetooth speaker. Tried everything! @SpotifyCares No, but I've moved speaker to about 1 metre away and it's not skipping at the mo - it was about 3 or 4 metres away before. Fingers crossed! @SpotifyCares Brilliant thanks \ud83d\ude0a",
+    "brand_reply": "@105840 Hi there! What device is this happening on? If you could also let us know the Android and Spotify versions you're using, that'd be great /AY",
+    "full_dialog": [
+      {
+        "role": "brand",
+        "author_id": "SpotifyCares",
+        "text": "@105840 Hi there! What device is this happening on? If you could also let us know the Android and Spotify versions you're using, that'd be great /AY",
+        "tweet_id": "119254"
+      },
+      {
+        "role": "customer",
+        "author_id": "105840",
+        "text": "@SpotifyCares Thanks! Version 8.4.22.857 armv7 on anker bluetooth speaker on Samsung Galaxy Tab A (2016) Model SM-T280 Does distance from speaker matter?",
+        "tweet_id": "119255"
+      },
+      {
+        "role": "customer",
+        "author_id": "105840",
+        "text": "@76495 @91226 Please help! Spotify Premium skipping through songs constantly on android tablet & bluetooth speaker. Tried everything!",
+        "tweet_id": "119256"
+      },
+      {
+        "role": "brand",
+        "author_id": "SpotifyCares",
+        "text": "@105840 Thanks. The distance could possibly affect playback. Does logging out > restarting your device > logging back in make a difference? /AY",
+        "tweet_id": "119257"
+      },
+      {
+        "role": "customer",
+        "author_id": "105840",
+        "text": "@SpotifyCares No, but I've moved speaker to about 1 metre away and it's not skipping at the mo - it was about 3 or 4 metres away before. Fingers crossed!",
+        "tweet_id": "119258"
+      },
+      {
+        "role": "brand",
+        "author_id": "SpotifyCares",
+        "text": "@105840 That's great to hear. If anything comes up, just let us know. We'll carry on helping out \ud83d\ude42 /AY",
+        "tweet_id": "119259"
+      },
+      {
+        "role": "customer",
+        "author_id": "105840",
+        "text": "@SpotifyCares Brilliant thanks \ud83d\ude0a",
+        "tweet_id": "119260"
+      },
+      {
+        "role": "brand",
+        "author_id": "SpotifyCares",
+        "text": "@105840 You're welcome! If there's anything else we can help with, just give us a shout. We're here for you \ud83d\ude09 /CP",
+        "tweet_id": "119261"
+      }
+    ],
+    "message_count": 8,
+    "created_at": "Wed Oct 11 13:45:59 +0000 2017"
+  },
+  {
+    "conversation_id": "119263",
+    "brand": "AppleSupport",
+    "all_brands": [
+      "AppleSupport"
+    ],
+    "customer_user_id": "105841",
+    "initial_customer_message": "@AppleSupport after the 11.0.2 my phone just sucks most of the apps are broken, wifi disconnects frequently #apple #ios1102 #painfulupdate",
+    "all_customer_messages": "@AppleSupport after the 11.0.2 my phone just sucks most of the apps are broken, wifi disconnects frequently #apple #ios1102 #painfulupdate",
+    "brand_reply": "@105841 We'd love to help! Please DM us and let us know any steps you've tried since experiencing these behaviors. https://t.co/GDrqU22YpT",
+    "full_dialog": [
+      {
+        "role": "brand",
+        "author_id": "AppleSupport",
+        "text": "@105841 We'd love to help! Please DM us and let us know any steps you've tried since experiencing these behaviors. https://t.co/GDrqU22YpT",
+        "tweet_id": "119262"
+      },
+      {
+        "role": "customer",
+        "author_id": "105841",
+        "text": "@AppleSupport after the 11.0.2 my phone just sucks most of the apps are broken, wifi disconnects frequently #apple #ios1102 #painfulupdate",
+        "tweet_id": "119263"
+      }
+    ],
+    "message_count": 2,
+    "created_at": "Wed Oct 11 06:29:07 +0000 2017"
+  },
+  {
+    "conversation_id": "119265",
+    "brand": "British_Airways",
+    "all_brands": [
+      "British_Airways"
+    ],
+    "customer_user_id": "105842",
+    "initial_customer_message": "First flight for long time with @British_Airways. Now over one 1h delay for the short jump FRA-LCY and NO one here to provide status updates",
+    "all_customer_messages": "First flight for long time with @British_Airways. Now over one 1h delay for the short jump FRA-LCY and NO one here to provide status updates @British_Airways Thanks for your answer. Response onsite was that Aircraft will not depart today, so rebooking to @105853 with now 4h delay...",
+    "brand_reply": "@105842 We're sorry your flight has been delayed, Beatner. Are you travelling on the BA8733? If so, the updated departure time we have is 15:30. 1/2",
+    "full_dialog": [
+      {
+        "role": "brand",
+        "author_id": "British_Airways",
+        "text": "@105842 We're sorry your flight has been delayed, Beatner. Are you travelling on the BA8733? If so, the updated departure time we have is 15:30. 1/2",
+        "tweet_id": "119264"
+      },
+      {
+        "role": "customer",
+        "author_id": "105842",
+        "text": "First flight for long time with @British_Airways. Now over one 1h delay for the short jump FRA-LCY and NO one here to provide status updates",
+        "tweet_id": "119265"
+      },
+      {
+        "role": "brand",
+        "author_id": "British_Airways",
+        "text": "@105842 I appreciate it's after 15:30 now, so hopefully you will depart very soon. We're sorry for any inconvenience the delay has caused. 2/2 ^JR",
+        "tweet_id": "119266"
+      },
+      {
+        "role": "customer",
+        "author_id": "105842",
+        "text": "@British_Airways Thanks for your answer. Response onsite was that Aircraft will not depart today, so rebooking to @105853 with now 4h delay...",
+        "tweet_id": "119302"
+      },
+      {
+        "role": "brand",
+        "author_id": "British_Airways",
+        "text": "@105842 Very sorry to hear this. We hope you get everything sorted. Kind Regards ^Jools",
+        "tweet_id": "119303"
+      }
+    ],
+    "message_count": 5,
+    "created_at": "Wed Oct 11 10:42:43 +0000 2017"
+  },
+  {
+    "conversation_id": "119268",
+    "brand": "AppleSupport",
+    "all_brands": [
+      "AppleSupport"
+    ],
+    "customer_user_id": "105843",
+    "initial_customer_message": "Okay @76099 I used my fucking phone for 2 minutes and it drains it down 8 fucking percent",
+    "all_customer_messages": "Okay @76099 I used my fucking phone for 2 minutes and it drains it down 8 fucking percent",
+    "brand_reply": "@105843 Battery life is important, and we're here for you. DM us the iOS version your iPhone is running. We'll go from there. https://t.co/GDrqU22YpT",
+    "full_dialog": [
+      {
+        "role": "brand",
+        "author_id": "AppleSupport",
+        "text": "@105843 Battery life is important, and we're here for you. DM us the iOS version your iPhone is running. We'll go from there. https://t.co/GDrqU22YpT",
+        "tweet_id": "119267"
+      },
+      {
+        "role": "customer",
+        "author_id": "105843",
+        "text": "Okay @76099 I used my fucking phone for 2 minutes and it drains it down 8 fucking percent",
+        "tweet_id": "119268"
+      }
+    ],
+    "message_count": 2,
+    "created_at": "Wed Oct 11 06:27:16 +0000 2017"
+  },
+  {
+    "conversation_id": "119272",
+    "brand": "AppleSupport",
+    "all_brands": [
+      "AppleSupport"
+    ],
+    "customer_user_id": "105844",
+    "initial_customer_message": "@AppleSupport Can you get my iPhone 7plus back on the old iOS please? Battery runs out in half the time, apps now frequently crash.",
+    "all_customer_messages": "@AppleSupport Can you get my iPhone 7plus back on the old iOS please? Battery runs out in half the time, apps now frequently crash. You\u2019ve paralysed my phone with your update @76099 grrrrrrrrrr",
+    "brand_reply": "@105844 Thanks for reaching out to us. We are always happy to help. Send us a DM so we can look into this together. https://t.co/GDrqU22YpT",
+    "full_dialog": [
+      {
+        "role": "brand",
+        "author_id": "AppleSupport",
+        "text": "@105844 Thanks for reaching out to us. We are always happy to help. Send us a DM so we can look into this together. https://t.co/GDrqU22YpT",
+        "tweet_id": "119269"
+      },
+      {
+        "role": "customer",
+        "author_id": "105844",
+        "text": "@AppleSupport Can you get my iPhone 7plus back on the old iOS please? Battery runs out in half the time, apps now frequently crash.",
+        "tweet_id": "119270"
+      },
+      {
+        "role": "brand",
+        "author_id": "AppleSupport",
+        "text": "@105844 We'd be happy to help. Send us a DM and we can start there. https://t.co/GDrqU22YpT",
+        "tweet_id": "119271"
+      },
+      {
+        "role": "customer",
+        "author_id": "105844",
+        "text": "You\u2019ve paralysed my phone with your update @76099 grrrrrrrrrr",
+        "tweet_id": "119272"
+      }
+    ],
+    "message_count": 4,
+    "created_at": "Wed Oct 11 06:49:50 +0000 2017"
+  },
+  {
+    "conversation_id": "119274",
+    "brand": "O2",
+    "all_brands": [
+      "O2"
+    ],
+    "customer_user_id": "82476",
+    "initial_customer_message": "@O2 I received this a few weeks ago, since then I've been getting 2/3 calls a day from a telemarketer. Is someone using your name? https://t.co/GLtz4XHcex",
+    "all_customer_messages": "@O2 I received this a few weeks ago, since then I've been getting 2/3 calls a day from a telemarketer. Is someone using your name? https://t.co/GLtz4XHcex",
+    "brand_reply": "@82476 \ud83e\udd14 We'd like to help Sam, which number is calling you? Please DM us more info so we can advise further. https://t.co/5pyLDJBC6r",
+    "full_dialog": [
+      {
+        "role": "brand",
+        "author_id": "O2",
+        "text": "@82476 \ud83e\udd14 We'd like to help Sam, which number is calling you? Please DM us more info so we can advise further. https://t.co/5pyLDJBC6r",
+        "tweet_id": "119273"
+      },
+      {
+        "role": "customer",
+        "author_id": "82476",
+        "text": "@O2 I received this a few weeks ago, since then I've been getting 2/3 calls a day from a telemarketer. Is someone using your name? https://t.co/GLtz4XHcex",
+        "tweet_id": "119274"
+      }
+    ],
+    "message_count": 2,
+    "created_at": "Wed Oct 11 12:50:07 +0000 2017"
+  },
+  {
+    "conversation_id": "119276",
+    "brand": "comcastcares",
+    "all_brands": [
+      "comcastcares"
+    ],
+    "customer_user_id": "105845",
+    "initial_customer_message": "My internet is down and xfinity talkin about 24-72 hours... y\u2019all have the game messed up. @77245",
+    "all_customer_messages": "My internet is down and xfinity talkin about 24-72 hours... y\u2019all have the game messed up. @77245",
+    "brand_reply": "@105845 I understand this is a frustrating experience, please send a DM with your account information so I can look into this matter for you. -AD",
+    "full_dialog": [
+      {
+        "role": "brand",
+        "author_id": "comcastcares",
+        "text": "@105845 I understand this is a frustrating experience, please send a DM with your account information so I can look into this matter for you. -AD",
+        "tweet_id": "119275"
+      },
+      {
+        "role": "customer",
+        "author_id": "105845",
+        "text": "My internet is down and xfinity talkin about 24-72 hours... y\u2019all have the game messed up. @77245",
+        "tweet_id": "119276"
+      }
+    ],
+    "message_count": 2,
+    "created_at": "Wed Oct 11 13:38:04 +0000 2017"
+  },
+  {
+    "conversation_id": "119278",
+    "brand": "sprintcare",
+    "all_brands": [
+      "sprintcare"
+    ],
+    "customer_user_id": "105676",
+    "initial_customer_message": "@76803 I service last 40 min sprint can I get a refund https://t.co/wYPw9hP6wt",
+    "all_customer_messages": "@76803 I service last 40 min sprint can I get a refund https://t.co/wYPw9hP6wt",
+    "brand_reply": "@105676 I understand how you frustrated this situation can be. Please follow us by sending a DM for further assistance. Sprint Cares. -AC",
+    "full_dialog": [
+      {
+        "role": "brand",
+        "author_id": "sprintcare",
+        "text": "@105676 I understand how you frustrated this situation can be. Please follow us by sending a DM for further assistance. Sprint Cares. -AC",
+        "tweet_id": "119277"
+      },
+      {
+        "role": "customer",
+        "author_id": "105676",
+        "text": "@76803 I service last 40 min sprint can I get a refund https://t.co/wYPw9hP6wt",
+        "tweet_id": "119278"
+      }
+    ],
+    "message_count": 2,
+    "created_at": "Wed Oct 11 13:24:06 +0000 2017"
+  },
+  {
+    "conversation_id": "119280",
+    "brand": "AppleSupport",
+    "all_brands": [
+      "AppleSupport"
+    ],
+    "customer_user_id": "105846",
+    "initial_customer_message": "So the new @76099 update does not let me listen to music and go on whatsapp at the same time?!?",
+    "all_customer_messages": "So the new @76099 update does not let me listen to music and go on whatsapp at the same time?!?",
+    "brand_reply": "@105846 We'd like to help. What happens when you try to listen to Apple Music & use WhatsApp? Does the music pause? Let us know in DM. https://t.co/GDrqU22YpT",
+    "full_dialog": [
+      {
+        "role": "brand",
+        "author_id": "AppleSupport",
+        "text": "@105846 We'd like to help. What happens when you try to listen to Apple Music & use WhatsApp? Does the music pause? Let us know in DM. https://t.co/GDrqU22YpT",
+        "tweet_id": "119279"
+      },
+      {
+        "role": "customer",
+        "author_id": "105846",
+        "text": "So the new @76099 update does not let me listen to music and go on whatsapp at the same time?!?",
+        "tweet_id": "119280"
+      }
+    ],
+    "message_count": 2,
+    "created_at": "Wed Oct 11 07:13:34 +0000 2017"
+  },
+  {
+    "conversation_id": "119283",
+    "brand": "SpotifyCares",
+    "all_brands": [
+      "SpotifyCares"
+    ],
+    "customer_user_id": "105847",
+    "initial_customer_message": "@SpotifyCares seems to be working at this stage. Will let you know if it happens again. Cheers",
+    "all_customer_messages": "@SpotifyCares seems to be working at this stage. Will let you know if it happens again. Cheers @SpotifyCares i've been having issues with playback. songs have been stopping midway through and won't restart unless i close and reopen app @SpotifyCares problem has come back again today. is there some kind of bug? @SpotifyCares It's on a Macbook Air (early 2014), running High Sierra, spotify version 1.0.65.320.gac7a8e02",
+    "brand_reply": "@105847 Hi Harry! Help's here. Can you check if logging out > restarting your device > logging back in makes a difference? Keep us posted /MU",
+    "full_dialog": [
+      {
+        "role": "brand",
+        "author_id": "SpotifyCares",
+        "text": "@105847 Hi Harry! Help's here. Can you check if logging out > restarting your device > logging back in makes a difference? Keep us posted /MU",
+        "tweet_id": "119281"
+      },
+      {
+        "role": "customer",
+        "author_id": "105847",
+        "text": "@SpotifyCares seems to be working at this stage. Will let you know if it happens again. Cheers",
+        "tweet_id": "119282"
+      },
+      {
+        "role": "customer",
+        "author_id": "105847",
+        "text": "@SpotifyCares i've been having issues with playback. songs have been stopping midway through and won't restart unless i close and reopen app",
+        "tweet_id": "119283"
+      },
+      {
+        "role": "brand",
+        "author_id": "SpotifyCares",
+        "text": "@105847 Sure thing. We'll keep an eye out for your update /MU",
+        "tweet_id": "119284"
+      },
+      {
+        "role": "customer",
+        "author_id": "105847",
+        "text": "@SpotifyCares problem has come back again today. is there some kind of bug?",
+        "tweet_id": "119285"
+      },
+      {
+        "role": "brand",
+        "author_id": "SpotifyCares",
+        "text": "@105847 Thanks for giving us a nudge about this. What device, operating system, and Spotify version is this happening on? /AY",
+        "tweet_id": "119286"
+      },
+      {
+        "role": "customer",
+        "author_id": "105847",
+        "text": "@SpotifyCares It's on a Macbook Air (early 2014), running High Sierra, spotify version 1.0.65.320.gac7a8e02",
+        "tweet_id": "119287"
+      },
+      {
+        "role": "brand",
+        "author_id": "SpotifyCares",
+        "text": "@105847 Got it. Can you try the steps here for us: https://t.co/EqisDMwZAT? They should help with this. Let us know how it plays out /AY",
+        "tweet_id": "119288"
+      }
+    ],
+    "message_count": 8,
+    "created_at": "Wed Oct 11 13:46:20 +0000 2017"
+  },
+  {
+    "conversation_id": "119292",
+    "brand": "AppleSupport",
+    "all_brands": [
+      "AppleSupport"
+    ],
+    "customer_user_id": "105848",
+    "initial_customer_message": "@AppleSupport Latest version \ud83d\ude21\ud83d\ude21 I have read the help page turned off virtually all apps and location svs too - but in typing this I dropped 3% life",
+    "all_customer_messages": "@AppleSupport Latest version \ud83d\ude21\ud83d\ude21 I have read the help page turned off virtually all apps and location svs too - but in typing this I dropped 3% life @AppleSupport Super help - problem solved \ud83d\ude00 once again in love with Apple @AppleSupport #ios11update - is still killing my battery within 12 hours - phone is 10 months old - it\u2019s a disgrace - used to get 2 days",
+    "brand_reply": "@105848 Let's take a look. What is the exact iOS you're using? Are you using any specific apps when noticing this? DM us your reply. https://t.co/GDrqU22YpT",
+    "full_dialog": [
+      {
+        "role": "brand",
+        "author_id": "AppleSupport",
+        "text": "@105848 Let's take a look. What is the exact iOS you're using? Are you using any specific apps when noticing this? DM us your reply. https://t.co/GDrqU22YpT",
+        "tweet_id": "119289"
+      },
+      {
+        "role": "customer",
+        "author_id": "105848",
+        "text": "@AppleSupport Latest version \ud83d\ude21\ud83d\ude21 I have read the help page turned off virtually all apps and location svs too - but in typing this I dropped 3% life",
+        "tweet_id": "119290"
+      },
+      {
+        "role": "customer",
+        "author_id": "105848",
+        "text": "@AppleSupport Super help - problem solved \ud83d\ude00 once again in love with Apple",
+        "tweet_id": "119291"
+      },
+      {
+        "role": "customer",
+        "author_id": "105848",
+        "text": "@AppleSupport #ios11update - is still killing my battery within 12 hours - phone is 10 months old - it\u2019s a disgrace - used to get 2 days",
+        "tweet_id": "119292"
+      }
+    ],
+    "message_count": 4,
+    "created_at": "Wed Oct 11 13:48:49 +0000 2017"
+  },
+  {
+    "conversation_id": "119294",
+    "brand": "AppleSupport",
+    "all_brands": [
+      "AppleSupport"
+    ],
+    "customer_user_id": "105849",
+    "initial_customer_message": "Took my phone off charge at 7:20am. 8:03am - 60% battery remaining. @76099 plz I beg you, sort your battery life out\ud83d\ude29",
+    "all_customer_messages": "Took my phone off charge at 7:20am. 8:03am - 60% battery remaining. @76099 plz I beg you, sort your battery life out\ud83d\ude29",
+    "brand_reply": "@105849 Thanks for reaching out to us. We are always happy to help. Send us a DM so we can look into this together. https://t.co/GDrqU22YpT",
+    "full_dialog": [
+      {
+        "role": "brand",
+        "author_id": "AppleSupport",
+        "text": "@105849 Thanks for reaching out to us. We are always happy to help. Send us a DM so we can look into this together. https://t.co/GDrqU22YpT",
+        "tweet_id": "119293"
+      },
+      {
+        "role": "customer",
+        "author_id": "105849",
+        "text": "Took my phone off charge at 7:20am. 8:03am - 60% battery remaining. @76099 plz I beg you, sort your battery life out\ud83d\ude29",
+        "tweet_id": "119294"
+      }
+    ],
+    "message_count": 2,
+    "created_at": "Wed Oct 11 07:03:47 +0000 2017"
+  },
+  {
+    "conversation_id": "119297",
+    "brand": "SouthwestAir",
+    "all_brands": [
+      "SouthwestAir"
+    ],
+    "customer_user_id": "105850",
+    "initial_customer_message": "@SouthwestAir I am! Thank you for the answer!!",
+    "all_customer_messages": "@SouthwestAir I am! Thank you for the answer!! @southwestair Just curious....will I get the companion pass the exact moment I get enough points? It will I have to wait? Thanks!",
+    "brand_reply": "@105850 Once the points load and you hit the number, you get it immediately! You'll even receive a congrats email. Are you almost there? ^AC",
+    "full_dialog": [
+      {
+        "role": "brand",
+        "author_id": "SouthwestAir",
+        "text": "@105850 Once the points load and you hit the number, you get it immediately! You'll even receive a congrats email. Are you almost there? ^AC",
+        "tweet_id": "119295"
+      },
+      {
+        "role": "customer",
+        "author_id": "105850",
+        "text": "@SouthwestAir I am! Thank you for the answer!!",
+        "tweet_id": "119296"
+      },
+      {
+        "role": "customer",
+        "author_id": "105850",
+        "text": "@southwestair Just curious....will I get the companion pass the exact moment I get enough points? It will I have to wait? Thanks!",
+        "tweet_id": "119297"
+      }
+    ],
+    "message_count": 3,
+    "created_at": "Wed Oct 11 13:55:48 +0000 2017"
+  },
+  {
+    "conversation_id": "119299",
+    "brand": "AppleSupport",
+    "all_brands": [
+      "AppleSupport"
+    ],
+    "customer_user_id": "105851",
+    "initial_customer_message": "@AppleSupport I need a new code for my I-store. I haven\u2019t recd any but msg is too many sent. Help!",
+    "all_customer_messages": "@AppleSupport I need a new code for my I-store. I haven\u2019t recd any but msg is too many sent. Help!",
+    "brand_reply": "@105851 We'd like to provide some assistance with this. Tell us more about the issue you're experiencing in DM. We'll go from there. https://t.co/GDrqU22YpT",
+    "full_dialog": [
+      {
+        "role": "brand",
+        "author_id": "AppleSupport",
+        "text": "@105851 We'd like to provide some assistance with this. Tell us more about the issue you're experiencing in DM. We'll go from there. https://t.co/GDrqU22YpT",
+        "tweet_id": "119298"
+      },
+      {
+        "role": "customer",
+        "author_id": "105851",
+        "text": "@AppleSupport I need a new code for my I-store. I haven\u2019t recd any but msg is too many sent. Help!",
+        "tweet_id": "119299"
+      }
+    ],
+    "message_count": 2,
+    "created_at": "Wed Oct 11 07:16:18 +0000 2017"
+  },
+  {
+    "conversation_id": "119301",
+    "brand": "AppleSupport",
+    "all_brands": [
+      "AppleSupport"
+    ],
+    "customer_user_id": "105852",
+    "initial_customer_message": "@76099 @AppleSupport fix this update. It\u2019s horrible",
+    "all_customer_messages": "@76099 @AppleSupport fix this update. It\u2019s horrible",
+    "brand_reply": "@105852 Are you experiencing an issue with your device? If so, DM us with what's going on. We'll see how we can help from there. https://t.co/GDrqU22YpT",
+    "full_dialog": [
+      {
+        "role": "brand",
+        "author_id": "AppleSupport",
+        "text": "@105852 Are you experiencing an issue with your device? If so, DM us with what's going on. We'll see how we can help from there. https://t.co/GDrqU22YpT",
+        "tweet_id": "119300"
+      },
+      {
+        "role": "customer",
+        "author_id": "105852",
+        "text": "@76099 @AppleSupport fix this update. It\u2019s horrible",
+        "tweet_id": "119301"
+      }
+    ],
+    "message_count": 2,
+    "created_at": "Wed Oct 11 08:50:14 +0000 2017"
+  },
+  {
+    "conversation_id": "119306",
+    "brand": "Ask_Spectrum",
+    "all_brands": [
+      "Ask_Spectrum"
+    ],
+    "customer_user_id": "105854",
+    "initial_customer_message": "@Ask_Spectrum It's just in my yard. I've called 4-5 times in 6 weeks. I'm not a customer but it's pretty tempting. I do have some coaxial",
+    "all_customer_messages": "@Ask_Spectrum It's just in my yard. I've called 4-5 times in 6 weeks. I'm not a customer but it's pretty tempting. I do have some coaxial @76501 I guess this means free cable for the neighborhood. https://t.co/FBgEE9YXPm",
+    "brand_reply": "@105854 I am sorry for the poor experience. Can you please DM the full service address and name on the account, as we ass... https://t.co/JEZhqGdBMd",
+    "full_dialog": [
+      {
+        "role": "brand",
+        "author_id": "Ask_Spectrum",
+        "text": "@105854 I am sorry for the poor experience. Can you please DM the full service address and name on the account, as we ass... https://t.co/JEZhqGdBMd",
+        "tweet_id": "119304"
+      },
+      {
+        "role": "customer",
+        "author_id": "105854",
+        "text": "@Ask_Spectrum It's just in my yard. I've called 4-5 times in 6 weeks. I'm not a customer but it's pretty tempting. I do have some coaxial",
+        "tweet_id": "119305"
+      },
+      {
+        "role": "customer",
+        "author_id": "105854",
+        "text": "@76501 I guess this means free cable for the neighborhood. https://t.co/FBgEE9YXPm",
+        "tweet_id": "119306"
+      }
+    ],
+    "message_count": 3,
+    "created_at": "Wed Oct 11 13:49:52 +0000 2017"
+  },
+  {
+    "conversation_id": "119315",
+    "brand": "Tesco",
+    "all_brands": [
+      "Tesco"
+    ],
+    "customer_user_id": "105855",
+    "initial_customer_message": "@Tesco Maybe hire colleagues who can see?",
+    "all_customer_messages": "@Tesco Maybe hire colleagues who can see? @Tesco The point is if it's enforced they do it properly or they don't. Plus take some common-sense and think does that person look over 18? @Tesco Uk offlicense law is 18. Not 25 Got id's @Tesco for buying one Adnams Broadside. Is being blind part of the job-spec? I am 35 and 99 kilos.",
+    "brand_reply": "@105855 Hi Thomas, if a colleague believes the person buying alcohol looks under 25, they will be challenged for ID to prove they're of age. - Paige",
+    "full_dialog": [
+      {
+        "role": "brand",
+        "author_id": "Tesco",
+        "text": "@105855 Hi Thomas, if a colleague believes the person buying alcohol looks under 25, they will be challenged for ID to prove they're of age. - Paige",
+        "tweet_id": "119308"
+      },
+      {
+        "role": "customer",
+        "author_id": "105855",
+        "text": "@Tesco Maybe hire colleagues who can see?",
+        "tweet_id": "119309"
+      },
+      {
+        "role": "customer",
+        "author_id": "105855",
+        "text": "@Tesco The point is if it's enforced they do it properly or they don't. Plus take some common-sense and think does that person look over 18?",
+        "tweet_id": "119310"
+      },
+      {
+        "role": "brand",
+        "author_id": "Tesco",
+        "text": "@105855 Hi Thomas, this is correct but this helps our store colleagues judge age and protect them from making underage sales. Amanda",
+        "tweet_id": "119311"
+      },
+      {
+        "role": "customer",
+        "author_id": "105855",
+        "text": "@Tesco Uk offlicense law is 18. Not 25",
+        "tweet_id": "119313"
+      },
+      {
+        "role": "brand",
+        "author_id": "Tesco",
+        "text": "@105855 Hi Thomas, we operate a Think 25 policy at our stores. I'd be flattered to be ID'd. :-) - Helena",
+        "tweet_id": "119314"
+      },
+      {
+        "role": "customer",
+        "author_id": "105855",
+        "text": "Got id's @Tesco for buying one Adnams Broadside. Is being blind part of the job-spec? I am 35 and 99 kilos.",
+        "tweet_id": "119315"
+      }
+    ],
+    "message_count": 7,
+    "created_at": "Wed Oct 11 13:33:43 +0000 2017"
+  },
+  {
+    "conversation_id": "119319",
+    "brand": "Tesco",
+    "all_brands": [
+      "Tesco"
+    ],
+    "customer_user_id": "105856",
+    "initial_customer_message": "@Tesco Will I lose all the shopping I've done if I delete the cache/cookies (not using app)?",
+    "all_customer_messages": "@Tesco Will I lose all the shopping I've done if I delete the cache/cookies (not using app)? Hey @Tesco, your website's broken. It's telling me there are no delivery slots for the next 3 weeks, which I find slightly unlikely. @Tesco Done all that. Still telling me there are no delivery slots whatsoever.",
+    "brand_reply": "@105856 Hi there, could you try deleting your cache and cookies and reinstalling the app if using it? This should fix the issue :) - Dani",
+    "full_dialog": [
+      {
+        "role": "brand",
+        "author_id": "Tesco",
+        "text": "@105856 Hi there, could you try deleting your cache and cookies and reinstalling the app if using it? This should fix the issue :) - Dani",
+        "tweet_id": "119317"
+      },
+      {
+        "role": "customer",
+        "author_id": "105856",
+        "text": "@Tesco Will I lose all the shopping I've done if I delete the cache/cookies (not using app)?",
+        "tweet_id": "119318"
+      },
+      {
+        "role": "customer",
+        "author_id": "105856",
+        "text": "Hey @Tesco, your website's broken. It's telling me there are no delivery slots for the next 3 weeks, which I find slightly unlikely.",
+        "tweet_id": "119319"
+      },
+      {
+        "role": "brand",
+        "author_id": "Tesco",
+        "text": "@105856 Hi there, as long as you sign out of your account prior to deleting your cache & cookies, you'll still have a full basket :) Thanks - Mike",
+        "tweet_id": "119320"
+      },
+      {
+        "role": "customer",
+        "author_id": "105856",
+        "text": "@Tesco Done all that. Still telling me there are no delivery slots whatsoever.",
+        "tweet_id": "119321"
+      },
+      {
+        "role": "brand",
+        "author_id": "Tesco",
+        "text": "@105856 Can you DM me your full name, address and email? I'd be happy to look into this further for you :) Thanks - Mike",
+        "tweet_id": "119322"
+      }
+    ],
+    "message_count": 6,
+    "created_at": "Wed Oct 11 13:43:09 +0000 2017"
+  },
+  {
+    "conversation_id": "119326",
+    "brand": "AppleSupport",
+    "all_brands": [
+      "AppleSupport"
+    ],
+    "customer_user_id": "105857",
+    "initial_customer_message": "@AppleSupport I have the latest version iOS. It started immediately after I updated my phone.",
+    "all_customer_messages": "@AppleSupport I have the latest version iOS. It started immediately after I updated my phone. My apps stop working without warning and my phone freezes every five minutes! Love the new update @76099!!!!",
+    "brand_reply": "@105857 Is there a particular app that seems to cause these issues more than others? What model iPhone are you using? Join us in DM. https://t.co/GDrqU22YpT",
+    "full_dialog": [
+      {
+        "role": "brand",
+        "author_id": "AppleSupport",
+        "text": "@105857 Is there a particular app that seems to cause these issues more than others? What model iPhone are you using? Join us in DM. https://t.co/GDrqU22YpT",
+        "tweet_id": "119323"
+      },
+      {
+        "role": "customer",
+        "author_id": "105857",
+        "text": "@AppleSupport I have the latest version iOS. It started immediately after I updated my phone.",
+        "tweet_id": "119324"
+      },
+      {
+        "role": "brand",
+        "author_id": "AppleSupport",
+        "text": "@105857 We'd like to help if we can. When did this start happening? Which version of iOS are you running currently?",
+        "tweet_id": "119325"
+      },
+      {
+        "role": "customer",
+        "author_id": "105857",
+        "text": "My apps stop working without warning and my phone freezes every five minutes! Love the new update @76099!!!!",
+        "tweet_id": "119326"
+      }
+    ],
+    "message_count": 4,
+    "created_at": "Wed Oct 11 08:52:14 +0000 2017"
+  },
+  {
+    "conversation_id": "119328",
+    "brand": "HPSupport",
+    "all_brands": [
+      "HPSupport"
+    ],
+    "customer_user_id": "105858",
+    "initial_customer_message": "@HPSupport Problem with printhead Serial# TH536D1HN #hpcswus #hpprnt",
+    "all_customer_messages": "@HPSupport Problem with printhead Serial# TH536D1HN #hpcswus #hpprnt",
+    "brand_reply": "@105858 Hi Agoura, thanks for tweeting. Please refer to this article: https://t.co/BSsgjZARTc & click the link to reply back. ^Rashmi https://t.co/a2xkfCrUG1",
+    "full_dialog": [
+      {
+        "role": "brand",
+        "author_id": "HPSupport",
+        "text": "@105858 Hi Agoura, thanks for tweeting. Please refer to this article: https://t.co/BSsgjZARTc & click the link to reply back. ^Rashmi https://t.co/a2xkfCrUG1",
+        "tweet_id": "119327"
+      },
+      {
+        "role": "customer",
+        "author_id": "105858",
+        "text": "@HPSupport Problem with printhead Serial# TH536D1HN #hpcswus #hpprnt",
+        "tweet_id": "119328"
+      }
+    ],
+    "message_count": 2,
+    "created_at": "Wed Oct 11 02:04:50 +0000 2017"
+  },
+  {
+    "conversation_id": "119331",
+    "brand": "UPSHelp",
+    "all_brands": [
+      "UPSHelp"
+    ],
+    "customer_user_id": "105859",
+    "initial_customer_message": "@105860 I wish Amazon had an option of where I can just get it shipped to the ups store so I can avoid a lot of the struggle",
+    "all_customer_messages": "@105860 I wish Amazon had an option of where I can just get it shipped to the ups store so I can avoid a lot of the struggle They reschedule my shit for tomorrow https://t.co/RsvZcT982t",
+    "brand_reply": "@105859 UPS has a service called My Choice that will allow your packages to be delivered to UPS Store. ^ML https://t.co/BPZKndqww1 https://t.co/wKJHDXWGRQ",
+    "full_dialog": [
+      {
+        "role": "brand",
+        "author_id": "UPSHelp",
+        "text": "@105859 UPS has a service called My Choice that will allow your packages to be delivered to UPS Store. ^ML https://t.co/BPZKndqww1 https://t.co/wKJHDXWGRQ",
+        "tweet_id": "119329"
+      },
+      {
+        "role": "customer",
+        "author_id": "105859",
+        "text": "@105860 I wish Amazon had an option of where I can just get it shipped to the ups store so I can avoid a lot of the struggle",
+        "tweet_id": "119330"
+      },
+      {
+        "role": "customer",
+        "author_id": "105860",
+        "text": "They reschedule my shit for tomorrow https://t.co/RsvZcT982t",
+        "tweet_id": "119331"
+      }
+    ],
+    "message_count": 3,
+    "created_at": "Wed Oct 11 13:50:42 +0000 2017"
+  },
+  {
+    "conversation_id": "119332",
+    "brand": "Tesco",
+    "all_brands": [
+      "Tesco"
+    ],
+    "customer_user_id": "105861",
+    "initial_customer_message": "@Tesco bit of both - finding the layout cumbersome and when removing an item from faves - getting a huge slowdown. Not keen on the thin green line https://t.co/9281OKEebk",
+    "all_customer_messages": "@Tesco bit of both - finding the layout cumbersome and when removing an item from faves - getting a huge slowdown. Not keen on the thin green line https://t.co/9281OKEebk",
+    "brand_reply": "@105861 Hey Sara, sorry to hear of the issues you are having, can I ask if it's the lay out or just the speed of the website responding? TY - Chris",
+    "full_dialog": [
+      {
+        "role": "brand",
+        "author_id": "Tesco",
+        "text": "@105861 Hey Sara, sorry to hear of the issues you are having, can I ask if it's the lay out or just the speed of the website responding? TY - Chris",
+        "tweet_id": "119332"
+      },
+      {
+        "role": "customer",
+        "author_id": "105861",
+        "text": "@Tesco bit of both - finding the layout cumbersome and when removing an item from faves - getting a huge slowdown. Not keen on the thin green line https://t.co/9281OKEebk",
+        "tweet_id": "119333"
+      },
+      {
+        "role": "brand",
+        "author_id": "Tesco",
+        "text": "@105861 If that doesn't help please DM your full name, address and email including the browser and device so we can log this. Thanks - Lee 2/2",
+        "tweet_id": "119335"
+      }
+    ],
+    "message_count": 3,
+    "created_at": "Wed Oct 11 14:05:18 +0000 2017"
+  }
+]

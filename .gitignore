@@ -1,0 +1,14 @@
+# Environment variables - NEVER COMMIT
+.env
+
+# Python Virtual Environment
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Vector Store local database
+chroma_db/
+
+# MacOS & System files
+.DS_Store

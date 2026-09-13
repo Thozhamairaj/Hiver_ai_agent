@@ -1,0 +1,1602 @@
+[
+  {
+    "id": "GOLDEN_001",
+    "customer_message": "My battery is draining so fast after updating to iOS 11.",
+    "expected_intent": "battery_drain",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_002",
+    "customer_message": "@AppleSupport #ios11update - is still killing my battery within 12 hours - phone is 10 months old",
+    "expected_intent": "battery_drain",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_003",
+    "customer_message": "Took my phone off charge at 7:20am. 8:03am - 60% battery remaining. @AppleSupport please help!",
+    "expected_intent": "battery_drain",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_004",
+    "customer_message": "Battery health shows 80% and it drops from 50% to 0% suddenly.",
+    "expected_intent": "battery_drain",
+    "expected_decision": "ESCALATE",
+    "reason_category": "hardware_battery_degradation",
+    "difficulty": "hard"
+  },
+  {
+    "id": "GOLDEN_005",
+    "customer_message": "iPhone 7 battery dead after 2 hours of light usage on latest update.",
+    "expected_intent": "battery_drain",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_006",
+    "customer_message": "Why does iOS 11 drain my battery while phone is on standby overnight?",
+    "expected_intent": "battery_drain",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_007",
+    "customer_message": "Ever since updating yesterday, my phone gets burning hot and battery drains in 1 hour.",
+    "expected_intent": "battery_drain",
+    "expected_decision": "ESCALATE",
+    "reason_category": "overheating_hardware_risk",
+    "difficulty": "hard"
+  },
+  {
+    "id": "GOLDEN_008",
+    "customer_message": "Battery percentage jumps from 30% to 5% instantly after opening camera.",
+    "expected_intent": "battery_drain",
+    "expected_decision": "ESCALATE",
+    "reason_category": "hardware_battery_degradation",
+    "difficulty": "hard"
+  },
+  {
+    "id": "GOLDEN_009",
+    "customer_message": "@AppleSupport battery life on iPhone 6s is terrible since update. Any fix?",
+    "expected_intent": "battery_drain",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_010",
+    "customer_message": "My battery dropped 20% while reading a single article.",
+    "expected_intent": "battery_drain",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_011",
+    "customer_message": "Is there a battery drain bug in the new iOS 11.0.2 patch?",
+    "expected_intent": "battery_drain",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_012",
+    "customer_message": "My battery drains rapidly only when using Wi-Fi.",
+    "expected_intent": "battery_drain",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_013",
+    "customer_message": "Phone turned off at 45% battery and won't turn back on without charger.",
+    "expected_intent": "battery_drain",
+    "expected_decision": "ESCALATE",
+    "reason_category": "hardware_battery_degradation",
+    "difficulty": "hard"
+  },
+  {
+    "id": "GOLDEN_014",
+    "customer_message": "High background activity from Messages app is draining my battery.",
+    "expected_intent": "battery_drain",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_015",
+    "customer_message": "@AppleSupport battery drain fix required ASAP!",
+    "expected_intent": "battery_drain",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_016",
+    "customer_message": "Battery drains 10% every 15 minutes after update.",
+    "expected_intent": "battery_drain",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_017",
+    "customer_message": "My iPhone X battery doesn't last half a day anymore.",
+    "expected_intent": "battery_drain",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_018",
+    "customer_message": "Charging is super slow and battery drains faster than it charges.",
+    "expected_intent": "battery_drain",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_019",
+    "customer_message": "Battery percentage indicator is inaccurate and battery dies quickly.",
+    "expected_intent": "battery_drain",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_020",
+    "customer_message": "Is there a battery saving setting for iOS 11?",
+    "expected_intent": "battery_drain",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_021",
+    "customer_message": "My battery drains fast when location services are turned on.",
+    "expected_intent": "battery_drain",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_022",
+    "customer_message": "Ever since the software update, screen time drains 50% battery.",
+    "expected_intent": "battery_drain",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_023",
+    "customer_message": "Battery health drop after iOS update.",
+    "expected_intent": "battery_drain",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_024",
+    "customer_message": "Phone battery dies in cold weather after update.",
+    "expected_intent": "battery_drain",
+    "expected_decision": "ESCALATE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_025",
+    "customer_message": "Battery draining on stand-by mode without any app running.",
+    "expected_intent": "battery_drain",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_026",
+    "customer_message": "My battery lost 15% charge in 10 minutes of standby.",
+    "expected_intent": "battery_drain",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_027",
+    "customer_message": "Is Apple replacing batteries for iPhone 6s battery drain issue?",
+    "expected_intent": "battery_drain",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_028",
+    "customer_message": "Heavy battery usage reported by Mail app background fetch.",
+    "expected_intent": "battery_drain",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_029",
+    "customer_message": "Battery dies at 15% remaining capacity.",
+    "expected_intent": "battery_drain",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_030",
+    "customer_message": "How to stop iOS 11 battery drain?",
+    "expected_intent": "battery_drain",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_031",
+    "customer_message": "Battery icon turns red after 3 hours of minimal use.",
+    "expected_intent": "battery_drain",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_032",
+    "customer_message": "Battery draining during phone calls.",
+    "expected_intent": "battery_drain",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_033",
+    "customer_message": "I updated my phone 2 hours ago and battery is already at 10%.",
+    "expected_intent": "battery_drain",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_034",
+    "customer_message": "Significant battery drain observed post update.",
+    "expected_intent": "battery_drain",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_035",
+    "customer_message": "Help! Phone battery draining while locked in pocket.",
+    "expected_intent": "battery_drain",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_036",
+    "customer_message": "ios is too slow on iphone6 and i am not happy with it. Any solution please?",
+    "expected_intent": "system_performance_lag",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_037",
+    "customer_message": "I just updated my phone and suddenly everything takes ages to load wtf @AppleSupport",
+    "expected_intent": "system_performance_lag",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_038",
+    "customer_message": "My phone is lagging so badly after the update, scrolling stuttering everywhere.",
+    "expected_intent": "system_performance_lag",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_039",
+    "customer_message": "Keyboard takes 5 seconds to pop up when typing a message.",
+    "expected_intent": "system_performance_lag",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_040",
+    "customer_message": "Control center lag on iOS 11 is unbearable.",
+    "expected_intent": "system_performance_lag",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_041",
+    "customer_message": "Phone completely freezes when opening settings menu.",
+    "expected_intent": "system_performance_lag",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_042",
+    "customer_message": "Unresponsive touchscreen for 10 seconds after unlocking phone.",
+    "expected_intent": "system_performance_lag",
+    "expected_decision": "ESCALATE",
+    "reason_category": "hardware_touch_issue",
+    "difficulty": "hard"
+  },
+  {
+    "id": "GOLDEN_043",
+    "customer_message": "System lag makes calling impossible, delay of 4 seconds when pressing dial.",
+    "expected_intent": "system_performance_lag",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_044",
+    "customer_message": "@AppleSupport why is my iPhone 7 freezing every time I swipe home?",
+    "expected_intent": "system_performance_lag",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_045",
+    "customer_message": "Extreme UI latency after installing iOS 11.0.2.",
+    "expected_intent": "system_performance_lag",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_046",
+    "customer_message": "Animations stuttering when opening apps.",
+    "expected_intent": "system_performance_lag",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_047",
+    "customer_message": "My phone lags when switching between apps.",
+    "expected_intent": "system_performance_lag",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_048",
+    "customer_message": "Everything feels sluggish since the new update.",
+    "expected_intent": "system_performance_lag",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_049",
+    "customer_message": "Screen freezing for 30 seconds straight.",
+    "expected_intent": "system_performance_lag",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_050",
+    "customer_message": "Typing delay on screen keyboard after update.",
+    "expected_intent": "system_performance_lag",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_051",
+    "customer_message": "Phone slow to turn on and slow to load apps.",
+    "expected_intent": "system_performance_lag",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_052",
+    "customer_message": "Stuttering home screen transitions.",
+    "expected_intent": "system_performance_lag",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_053",
+    "customer_message": "Camera app takes 6 seconds to load and freezes.",
+    "expected_intent": "system_performance_lag",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_054",
+    "customer_message": "System lag makes my device frustrating to use.",
+    "expected_intent": "system_performance_lag",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_055",
+    "customer_message": "Phone unresponsive when receiving incoming call.",
+    "expected_intent": "system_performance_lag",
+    "expected_decision": "ESCALATE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_056",
+    "customer_message": "Why is iOS 11 so slow on older iPhone models?",
+    "expected_intent": "system_performance_lag",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_057",
+    "customer_message": "App switcher lags heavily on iPhone 6.",
+    "expected_intent": "system_performance_lag",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_058",
+    "customer_message": "Noticeable latency when pressing side button.",
+    "expected_intent": "system_performance_lag",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_059",
+    "customer_message": "Phone freeze requires hard reboot every day.",
+    "expected_intent": "system_performance_lag",
+    "expected_decision": "ESCALATE",
+    "reason_category": "severe_system_instability",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_060",
+    "customer_message": "Lock screen lag when waking up device.",
+    "expected_intent": "system_performance_lag",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_061",
+    "customer_message": "Sluggish overall performance post update.",
+    "expected_intent": "system_performance_lag",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_062",
+    "customer_message": "Heavy lag in notification center.",
+    "expected_intent": "system_performance_lag",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_063",
+    "customer_message": "Control center freezes when toggling Bluetooth.",
+    "expected_intent": "system_performance_lag",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_064",
+    "customer_message": "Device becomes unresponsive when loading photos.",
+    "expected_intent": "system_performance_lag",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_065",
+    "customer_message": "Laggy performance across system apps.",
+    "expected_intent": "system_performance_lag",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_066",
+    "customer_message": "after the 11.0.2 my phone just sucks most of the apps are broken, wifi disconnects frequently",
+    "expected_intent": "app_crash_bug",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_067",
+    "customer_message": "My apps stop working without warning and my phone freezes every five minutes!",
+    "expected_intent": "app_crash_bug",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_068",
+    "customer_message": "WhatsApp crashes immediately upon launch on iOS 11.",
+    "expected_intent": "app_crash_bug",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "app_reset_troubleshooting",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_069",
+    "customer_message": "Instagram and Twitter crash whenever I upload a video.",
+    "expected_intent": "app_crash_bug",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "app_reset_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_070",
+    "customer_message": "Native Camera app keeps crashing every time I try to take a photo.",
+    "expected_intent": "app_crash_bug",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "system_app_crash",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_071",
+    "customer_message": "Safari crashes immediately when opening any webpage.",
+    "expected_intent": "app_crash_bug",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "system_app_crash",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_072",
+    "customer_message": "Third party apps crash after 2 seconds on screen.",
+    "expected_intent": "app_crash_bug",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "app_reset_troubleshooting",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_073",
+    "customer_message": "Mail app crashes when opening attachments.",
+    "expected_intent": "app_crash_bug",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "system_app_crash",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_074",
+    "customer_message": "Bank app crashing after update, can't access money!",
+    "expected_intent": "app_crash_bug",
+    "expected_decision": "ESCALATE",
+    "reason_category": "critical_financial_app_crash",
+    "difficulty": "hard"
+  },
+  {
+    "id": "GOLDEN_075",
+    "customer_message": "Apps crash continuously until I restart device.",
+    "expected_intent": "app_crash_bug",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_076",
+    "customer_message": "Facebook app closes by itself right after tapping icon.",
+    "expected_intent": "app_crash_bug",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_077",
+    "customer_message": "Settings app crashes when clicking General > About.",
+    "expected_intent": "app_crash_bug",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_078",
+    "customer_message": "App store crashes when trying to download app update.",
+    "expected_intent": "app_crash_bug",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_079",
+    "customer_message": "Photos app crashes when scrolling down to videos.",
+    "expected_intent": "app_crash_bug",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_080",
+    "customer_message": "YouTube app force closes while watching video.",
+    "expected_intent": "app_crash_bug",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_081",
+    "customer_message": "Phone app crashes when opening voicemail.",
+    "expected_intent": "app_crash_bug",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_082",
+    "customer_message": "Messages app closes when typing emojis.",
+    "expected_intent": "app_crash_bug",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_083",
+    "customer_message": "Maps app crashes while navigating routes.",
+    "expected_intent": "app_crash_bug",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_084",
+    "customer_message": "All my apps crash after updating to latest software.",
+    "expected_intent": "app_crash_bug",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_085",
+    "customer_message": "Music app crashes when playing downloaded playlist.",
+    "expected_intent": "app_crash_bug",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_086",
+    "customer_message": "Weather widget crashes home screen.",
+    "expected_intent": "app_crash_bug",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_087",
+    "customer_message": "Clock app crash when setting alarm.",
+    "expected_intent": "app_crash_bug",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_088",
+    "customer_message": "Notes app closes and loses my typed notes.",
+    "expected_intent": "app_crash_bug",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_089",
+    "customer_message": "Files app crashing when accessing iCloud Drive.",
+    "expected_intent": "app_crash_bug",
+    "expected_decision": "ESCALATE",
+    "reason_category": "account_data_risk",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_090",
+    "customer_message": "Podcast app constantly closing in background.",
+    "expected_intent": "app_crash_bug",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_091",
+    "customer_message": "Banking application force close error.",
+    "expected_intent": "app_crash_bug",
+    "expected_decision": "ESCALATE",
+    "reason_category": "account_data_risk",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_092",
+    "customer_message": "Health app crash on step counter screen.",
+    "expected_intent": "app_crash_bug",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_093",
+    "customer_message": "App crashing loop after updating iOS.",
+    "expected_intent": "app_crash_bug",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_094",
+    "customer_message": "Multiple apps failing to start up.",
+    "expected_intent": "app_crash_bug",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_095",
+    "customer_message": "Frequent app force closures after update.",
+    "expected_intent": "app_crash_bug",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_096",
+    "customer_message": "@AppleSupport I need a new code for my I-store. I haven\u2019t recd any but msg is too many sent. Help!",
+    "expected_intent": "verification_code_issue",
+    "expected_decision": "ESCALATE",
+    "reason_category": "account_security_limit",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_097",
+    "customer_message": "Not receiving 2FA security code to log into my Apple ID on MacBook.",
+    "expected_intent": "verification_code_issue",
+    "expected_decision": "ESCALATE",
+    "reason_category": "account_security_auth",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_098",
+    "customer_message": "Verification code sent to old phone number that I no longer have access to.",
+    "expected_intent": "verification_code_issue",
+    "expected_decision": "ESCALATE",
+    "reason_category": "account_recovery_process",
+    "difficulty": "hard"
+  },
+  {
+    "id": "GOLDEN_099",
+    "customer_message": "iMessage verification failed error code 12.",
+    "expected_intent": "verification_code_issue",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_100",
+    "customer_message": "Apple ID verification code SMS is not arriving.",
+    "expected_intent": "verification_code_issue",
+    "expected_decision": "ESCALATE",
+    "reason_category": "account_security_auth",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_101",
+    "customer_message": "I got locked out of my account because verification code didn't come.",
+    "expected_intent": "verification_code_issue",
+    "expected_decision": "ESCALATE",
+    "reason_category": "account_security_lockout",
+    "difficulty": "hard"
+  },
+  {
+    "id": "GOLDEN_102",
+    "customer_message": "Can you resend my Apple store passcode verification?",
+    "expected_intent": "verification_code_issue",
+    "expected_decision": "ESCALATE",
+    "reason_category": "account_security_auth",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_103",
+    "customer_message": "Two-factor authentication code prompt keeps timing out.",
+    "expected_intent": "verification_code_issue",
+    "expected_decision": "ESCALATE",
+    "reason_category": "account_security_auth",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_104",
+    "customer_message": "Verification code prompt not appearing on my secondary trusted device.",
+    "expected_intent": "verification_code_issue",
+    "expected_decision": "ESCALATE",
+    "reason_category": "account_security_auth",
+    "difficulty": "hard"
+  },
+  {
+    "id": "GOLDEN_105",
+    "customer_message": "Entered correct 6 digit verification code but says invalid code.",
+    "expected_intent": "verification_code_issue",
+    "expected_decision": "ESCALATE",
+    "reason_category": "account_security_auth",
+    "difficulty": "hard"
+  },
+  {
+    "id": "GOLDEN_106",
+    "customer_message": "Too many verification codes requested error screen.",
+    "expected_intent": "verification_code_issue",
+    "expected_decision": "ESCALATE",
+    "reason_category": "account_security_auth",
+    "difficulty": "hard"
+  },
+  {
+    "id": "GOLDEN_107",
+    "customer_message": "How do I receive Apple ID verification code via email instead of SMS?",
+    "expected_intent": "verification_code_issue",
+    "expected_decision": "ESCALATE",
+    "reason_category": "account_security_auth",
+    "difficulty": "hard"
+  },
+  {
+    "id": "GOLDEN_108",
+    "customer_message": "Security verification code failed repeatedly.",
+    "expected_intent": "verification_code_issue",
+    "expected_decision": "ESCALATE",
+    "reason_category": "account_security_auth",
+    "difficulty": "hard"
+  },
+  {
+    "id": "GOLDEN_109",
+    "customer_message": "Can't sign into iCloud because verification code never arrives.",
+    "expected_intent": "verification_code_issue",
+    "expected_decision": "ESCALATE",
+    "reason_category": "account_security_auth",
+    "difficulty": "hard"
+  },
+  {
+    "id": "GOLDEN_110",
+    "customer_message": "Passcode verification code expired immediately.",
+    "expected_intent": "verification_code_issue",
+    "expected_decision": "ESCALATE",
+    "reason_category": "account_security_auth",
+    "difficulty": "hard"
+  },
+  {
+    "id": "GOLDEN_111",
+    "customer_message": "Verification code text message delayed by 2 hours.",
+    "expected_intent": "verification_code_issue",
+    "expected_decision": "ESCALATE",
+    "reason_category": "account_security_auth",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_112",
+    "customer_message": "Need help bypassing verification code for locked Apple ID.",
+    "expected_intent": "verification_code_issue",
+    "expected_decision": "ESCALATE",
+    "reason_category": "account_security_auth",
+    "difficulty": "hard"
+  },
+  {
+    "id": "GOLDEN_113",
+    "customer_message": "2FA verification code loop during software setup.",
+    "expected_intent": "verification_code_issue",
+    "expected_decision": "ESCALATE",
+    "reason_category": "account_security_auth",
+    "difficulty": "hard"
+  },
+  {
+    "id": "GOLDEN_114",
+    "customer_message": "Apple store verification pin code lost.",
+    "expected_intent": "verification_code_issue",
+    "expected_decision": "ESCALATE",
+    "reason_category": "account_security_auth",
+    "difficulty": "hard"
+  },
+  {
+    "id": "GOLDEN_115",
+    "customer_message": "Didn't get my verification code for iTunes purchase.",
+    "expected_intent": "verification_code_issue",
+    "expected_decision": "ESCALATE",
+    "reason_category": "account_security_auth",
+    "difficulty": "hard"
+  },
+  {
+    "id": "GOLDEN_116",
+    "customer_message": "Can't verify Apple ID login without phone number verification code.",
+    "expected_intent": "verification_code_issue",
+    "expected_decision": "ESCALATE",
+    "reason_category": "account_security_auth",
+    "difficulty": "hard"
+  },
+  {
+    "id": "GOLDEN_117",
+    "customer_message": "Verification code sent to wrong phone number.",
+    "expected_intent": "verification_code_issue",
+    "expected_decision": "ESCALATE",
+    "reason_category": "account_security_auth",
+    "difficulty": "hard"
+  },
+  {
+    "id": "GOLDEN_118",
+    "customer_message": "Reset password verification code failed.",
+    "expected_intent": "verification_code_issue",
+    "expected_decision": "ESCALATE",
+    "reason_category": "account_security_auth",
+    "difficulty": "hard"
+  },
+  {
+    "id": "GOLDEN_119",
+    "customer_message": "Verification code error 'Unable to connect to verification server'.",
+    "expected_intent": "verification_code_issue",
+    "expected_decision": "ESCALATE",
+    "reason_category": "account_security_auth",
+    "difficulty": "hard"
+  },
+  {
+    "id": "GOLDEN_120",
+    "customer_message": "iCloud verification code fails on cellular network.",
+    "expected_intent": "verification_code_issue",
+    "expected_decision": "ESCALATE",
+    "reason_category": "account_security_auth",
+    "difficulty": "hard"
+  },
+  {
+    "id": "GOLDEN_121",
+    "customer_message": "So the new @AppleSupport update does not let me listen to music and go on whatsapp at the same time?!?",
+    "expected_intent": "playback_audio_issue",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_122",
+    "customer_message": "Apple Music stops playing whenever I lock my iPhone screen.",
+    "expected_intent": "playback_audio_issue",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_123",
+    "customer_message": "Bluetooth audio keeps skipping when connected to my car system.",
+    "expected_intent": "playback_audio_issue",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_124",
+    "customer_message": "Headphone jack adapter not outputting sound after update.",
+    "expected_intent": "playback_audio_issue",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_125",
+    "customer_message": "Audio pauses every 30 seconds during podcast playback.",
+    "expected_intent": "playback_audio_issue",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_126",
+    "customer_message": "Sound distortion through built-in speaker after iOS 11.",
+    "expected_intent": "playback_audio_issue",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_127",
+    "customer_message": "No sound coming out of speaker during YouTube videos.",
+    "expected_intent": "playback_audio_issue",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_128",
+    "customer_message": "Volume automatically lowering down to zero by itself.",
+    "expected_intent": "playback_audio_issue",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_129",
+    "customer_message": "AirPods audio cutting out in left ear after update.",
+    "expected_intent": "playback_audio_issue",
+    "expected_decision": "ESCALATE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_130",
+    "customer_message": "Audio playback stutters when opening other applications.",
+    "expected_intent": "playback_audio_issue",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_131",
+    "customer_message": "Microphone sound quiet during phone calls.",
+    "expected_intent": "playback_audio_issue",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_132",
+    "customer_message": "Music app stops playing when screen turns off.",
+    "expected_intent": "playback_audio_issue",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_133",
+    "customer_message": "Media audio muted even when silent switch is off.",
+    "expected_intent": "playback_audio_issue",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_134",
+    "customer_message": "Bluetooth headphones disconnect every 2 minutes while listening to audio.",
+    "expected_intent": "playback_audio_issue",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_135",
+    "customer_message": "Speaker crackling noise during video playback.",
+    "expected_intent": "playback_audio_issue",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_136",
+    "customer_message": "Equalizer settings not applying to Apple Music playback.",
+    "expected_intent": "playback_audio_issue",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_137",
+    "customer_message": "No audio in headphones when plugged in.",
+    "expected_intent": "playback_audio_issue",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_138",
+    "customer_message": "Playback controls on lock screen not working.",
+    "expected_intent": "playback_audio_issue",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_139",
+    "customer_message": "Siri voice audio distorted.",
+    "expected_intent": "playback_audio_issue",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_140",
+    "customer_message": "Song skips to next track automatically halfway through.",
+    "expected_intent": "playback_audio_issue",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_141",
+    "customer_message": "Audio crackle during phone calls.",
+    "expected_intent": "playback_audio_issue",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_142",
+    "customer_message": "Notification sounds interrupting background music without resuming.",
+    "expected_intent": "playback_audio_issue",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_143",
+    "customer_message": "Audio delay of 2 seconds on wireless headphones.",
+    "expected_intent": "playback_audio_issue",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_144",
+    "customer_message": "Ringtone sound not playing on incoming call.",
+    "expected_intent": "playback_audio_issue",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_145",
+    "customer_message": "Volume buttons unresponsive when playing audio.",
+    "expected_intent": "playback_audio_issue",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "standard_troubleshooting",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_146",
+    "customer_message": "@AppleSupport Can you get my iPhone 7plus back on the old iOS please? Battery runs out in half the time, apps now frequently crash.",
+    "expected_intent": "update_rollback_request",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "policy_explanation_rollback",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_147",
+    "customer_message": "How do I uninstall iOS 11 and downgrade back to iOS 10.3.3?",
+    "expected_intent": "update_rollback_request",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "policy_explanation_rollback",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_148",
+    "customer_message": "Is there any official way to revert my software update back to previous version?",
+    "expected_intent": "update_rollback_request",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "policy_explanation_rollback",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_149",
+    "customer_message": "Please give me instructions to downgrade iOS immediately, this update is unusable.",
+    "expected_intent": "update_rollback_request",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "policy_explanation_rollback",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_150",
+    "customer_message": "I want to go back to the old update before my phone broke.",
+    "expected_intent": "update_rollback_request",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "policy_explanation_rollback",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_151",
+    "customer_message": "Can I restore from iTunes backup to go back to older iOS release?",
+    "expected_intent": "update_rollback_request",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "policy_explanation_rollback",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_152",
+    "customer_message": "How to rollback iOS update without losing data?",
+    "expected_intent": "update_rollback_request",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "policy_explanation_rollback",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_153",
+    "customer_message": "Is Apple still signing iOS 10 for downgrade?",
+    "expected_intent": "update_rollback_request",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "policy_explanation_rollback",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_154",
+    "customer_message": "Need IPSW file link to downgrade my iPad.",
+    "expected_intent": "update_rollback_request",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "policy_explanation_rollback",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_155",
+    "customer_message": "Can Apple Store technicians downgrade my software version for me?",
+    "expected_intent": "update_rollback_request",
+    "expected_decision": "ESCALATE",
+    "reason_category": "policy_explanation_rollback",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_156",
+    "customer_message": "I hate iOS 11, tell me how to revert back right now.",
+    "expected_intent": "update_rollback_request",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "policy_explanation_rollback",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_157",
+    "customer_message": "Is downgrade supported for iPhone 6s?",
+    "expected_intent": "update_rollback_request",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "policy_explanation_rollback",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_158",
+    "customer_message": "Rollback option missing in iTunes software menu.",
+    "expected_intent": "update_rollback_request",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "policy_explanation_rollback",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_159",
+    "customer_message": "Can I undo software update on my iPhone?",
+    "expected_intent": "update_rollback_request",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "policy_explanation_rollback",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_160",
+    "customer_message": "Downgrade firmware instructions needed.",
+    "expected_intent": "update_rollback_request",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "policy_explanation_rollback",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_161",
+    "customer_message": "How long do I have to revert an iOS update after installing?",
+    "expected_intent": "update_rollback_request",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "policy_explanation_rollback",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_162",
+    "customer_message": "Can I go back to previous version if update broke my phone?",
+    "expected_intent": "update_rollback_request",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "policy_explanation_rollback",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_163",
+    "customer_message": "Reverting to older iOS version step-by-step guide.",
+    "expected_intent": "update_rollback_request",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "policy_explanation_rollback",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_164",
+    "customer_message": "Is there an uninstaller for iOS update?",
+    "expected_intent": "update_rollback_request",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "policy_explanation_rollback",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_165",
+    "customer_message": "How to go back to previous iOS built?",
+    "expected_intent": "update_rollback_request",
+    "expected_decision": "AUTO_HANDLE",
+    "reason_category": "policy_explanation_rollback",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_166",
+    "customer_message": "@AppleSupport fix this update. It\u2019s horrible",
+    "expected_intent": "general_complaint_feedback",
+    "expected_decision": "ESCALATE",
+    "reason_category": "ambiguous_customer_complaint",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_167",
+    "customer_message": "You\u2019ve paralysed my phone with your update @AppleSupport grrrrrrrrrr",
+    "expected_intent": "general_complaint_feedback",
+    "expected_decision": "ESCALATE",
+    "reason_category": "ambiguous_customer_complaint",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_168",
+    "customer_message": "I really hope you all change but I'm sure you won't! Because you don't have to!",
+    "expected_intent": "general_complaint_feedback",
+    "expected_decision": "ESCALATE",
+    "reason_category": "venting_customer_sentiment",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_169",
+    "customer_message": "Worst update in Apple history, completely ruined my user experience.",
+    "expected_intent": "general_complaint_feedback",
+    "expected_decision": "ESCALATE",
+    "reason_category": "venting_customer_sentiment",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_170",
+    "customer_message": "Apple quality control has gone downhill severely with this release.",
+    "expected_intent": "general_complaint_feedback",
+    "expected_decision": "ESCALATE",
+    "reason_category": "venting_customer_sentiment",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_171",
+    "customer_message": "Extremely disappointed with Apple customer support and software team.",
+    "expected_intent": "general_complaint_feedback",
+    "expected_decision": "ESCALATE",
+    "reason_category": "ambiguous_customer_complaint",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_172",
+    "customer_message": "This new update is an absolute disaster.",
+    "expected_intent": "general_complaint_feedback",
+    "expected_decision": "ESCALATE",
+    "reason_category": "ambiguous_customer_complaint",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_173",
+    "customer_message": "@AppleSupport your software developers failed miserably on this one.",
+    "expected_intent": "general_complaint_feedback",
+    "expected_decision": "ESCALATE",
+    "reason_category": "ambiguous_customer_complaint",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_174",
+    "customer_message": "Unbelievable how bad this software release is.",
+    "expected_intent": "general_complaint_feedback",
+    "expected_decision": "ESCALATE",
+    "reason_category": "ambiguous_customer_complaint",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_175",
+    "customer_message": "I regret buying an iPhone after experiencing this update.",
+    "expected_intent": "general_complaint_feedback",
+    "expected_decision": "ESCALATE",
+    "reason_category": "ambiguous_customer_complaint",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_176",
+    "customer_message": "Fix your buggy OS immediately @AppleSupport!",
+    "expected_intent": "general_complaint_feedback",
+    "expected_decision": "ESCALATE",
+    "reason_category": "ambiguous_customer_complaint",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_177",
+    "customer_message": "Every single update makes my phone worse.",
+    "expected_intent": "general_complaint_feedback",
+    "expected_decision": "ESCALATE",
+    "reason_category": "ambiguous_customer_complaint",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_178",
+    "customer_message": "Switched from Android to Apple and already regretting it.",
+    "expected_intent": "general_complaint_feedback",
+    "expected_decision": "ESCALATE",
+    "reason_category": "ambiguous_customer_complaint",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_179",
+    "customer_message": "Zero testing done before pushing this update to users.",
+    "expected_intent": "general_complaint_feedback",
+    "expected_decision": "ESCALATE",
+    "reason_category": "ambiguous_customer_complaint",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_180",
+    "customer_message": "Appalling user experience on latest iOS.",
+    "expected_intent": "general_complaint_feedback",
+    "expected_decision": "ESCALATE",
+    "reason_category": "ambiguous_customer_complaint",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_181",
+    "customer_message": "Apple update destroyed my device usability.",
+    "expected_intent": "general_complaint_feedback",
+    "expected_decision": "ESCALATE",
+    "reason_category": "ambiguous_customer_complaint",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_182",
+    "customer_message": "Shame on Apple for releasing such unfinished software.",
+    "expected_intent": "general_complaint_feedback",
+    "expected_decision": "ESCALATE",
+    "reason_category": "ambiguous_customer_complaint",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_183",
+    "customer_message": "Terrible experience overall, fix it now!",
+    "expected_intent": "general_complaint_feedback",
+    "expected_decision": "ESCALATE",
+    "reason_category": "ambiguous_customer_complaint",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_184",
+    "customer_message": "My phone feels completely broken after updating.",
+    "expected_intent": "general_complaint_feedback",
+    "expected_decision": "ESCALATE",
+    "reason_category": "ambiguous_customer_complaint",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_185",
+    "customer_message": "Worst customer experience ever.",
+    "expected_intent": "general_complaint_feedback",
+    "expected_decision": "ESCALATE",
+    "reason_category": "ambiguous_customer_complaint",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_186",
+    "customer_message": "What are the store operating hours for Apple Store Fifth Avenue?",
+    "expected_intent": "other",
+    "expected_decision": "ESCALATE",
+    "reason_category": "out_of_scope_retail",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_187",
+    "customer_message": "How much does screen replacement cost for iPhone 8 Plus?",
+    "expected_intent": "other",
+    "expected_decision": "ESCALATE",
+    "reason_category": "out_of_scope_hardware_pricing",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_188",
+    "customer_message": "Can I trade in my iPhone 6 for an iPhone X at local store?",
+    "expected_intent": "other",
+    "expected_decision": "ESCALATE",
+    "reason_category": "out_of_scope_tradein",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_189",
+    "customer_message": "Where can I check warranty status for my MacBook Pro?",
+    "expected_intent": "other",
+    "expected_decision": "ESCALATE",
+    "reason_category": "out_of_scope_macbook",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_190",
+    "customer_message": "My carrier signal says No Service after removing SIM card.",
+    "expected_intent": "other",
+    "expected_decision": "ESCALATE",
+    "reason_category": "unseen_carrier_hardware_issue",
+    "difficulty": "hard"
+  },
+  {
+    "id": "GOLDEN_191",
+    "customer_message": "How to apply for Apple Card credit line increase?",
+    "expected_intent": "other",
+    "expected_decision": "ESCALATE",
+    "reason_category": "out_of_scope_financial",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_192",
+    "customer_message": "Is AppleCare+ transferable to a new owner?",
+    "expected_intent": "other",
+    "expected_decision": "ESCALATE",
+    "reason_category": "out_of_scope_warranty_policy",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_193",
+    "customer_message": "My iPhone fell in water and won't turn on.",
+    "expected_intent": "other",
+    "expected_decision": "ESCALATE",
+    "reason_category": "hardware_liquid_damage",
+    "difficulty": "hard"
+  },
+  {
+    "id": "GOLDEN_194",
+    "customer_message": "How do I cancel my Apple Music monthly subscription auto-renew?",
+    "expected_intent": "other",
+    "expected_decision": "ESCALATE",
+    "reason_category": "billing_subscription_management",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_195",
+    "customer_message": "My order tracking number says package delivered but I didn't receive it.",
+    "expected_intent": "other",
+    "expected_decision": "ESCALATE",
+    "reason_category": "shipping_delivery_issue",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_196",
+    "customer_message": "Do you offer student discounts on iPad Pro for college?",
+    "expected_intent": "other",
+    "expected_decision": "ESCALATE",
+    "reason_category": "out_of_scope_pricing",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_197",
+    "customer_message": "How to pair Apple Watch to a second iPhone?",
+    "expected_intent": "other",
+    "expected_decision": "ESCALATE",
+    "reason_category": "out_of_scope_accessory",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_198",
+    "customer_message": "Cracked back glass repair price estimate.",
+    "expected_intent": "other",
+    "expected_decision": "ESCALATE",
+    "reason_category": "out_of_scope_hardware_pricing",
+    "difficulty": "easy"
+  },
+  {
+    "id": "GOLDEN_199",
+    "customer_message": "Can I return opened AirPods within 14 days?",
+    "expected_intent": "other",
+    "expected_decision": "ESCALATE",
+    "reason_category": "out_of_scope_return_policy",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GOLDEN_200",
+    "customer_message": "Is there an Apple event scheduled for next month?",
+    "expected_intent": "other",
+    "expected_decision": "ESCALATE",
+    "reason_category": "out_of_scope_news",
+    "difficulty": "easy"
+  }
+]

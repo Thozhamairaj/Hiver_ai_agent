@@ -1,0 +1,85 @@
+{
+  "brand": "AppleSupport",
+  "intents": [
+    {
+      "name": "battery_drain",
+      "description": "Customer complaining about fast battery depletion, battery draining quickly after update, or poor battery life.",
+      "keywords": ["battery", "drains", "charge", "battery life", "draining", "power"],
+      "example_messages": [
+        "My battery drains from 100% to 20% in two hours after updating to iOS 11.",
+        "@AppleSupport #ios11update - is still killing my battery within 12 hours - phone is 10 months old",
+        "Took my phone off charge at 7:20am. 8:03am - 60% battery remaining."
+      ]
+    },
+    {
+      "name": "system_performance_lag",
+      "description": "Customer reporting general slowness, UI lag, unresponsive screen, or phone running extremely slow.",
+      "keywords": ["slow", "lag", "freezing", "unresponsive", "performance", "sucks"],
+      "example_messages": [
+        "My phone is so laggy and unresponsive since the last patch.",
+        "ios is too slow on iphone6 and i am not happy with it. Any solution please?",
+        "My apps stop working without warning and my phone freezes every five minutes!"
+      ]
+    },
+    {
+      "name": "app_crash_bug",
+      "description": "Customer reporting specific apps crashing, closing unexpectedly, or failing to launch.",
+      "keywords": ["crash", "crashing", "apps broken", "app crash", "force close", "wifi disconnects"],
+      "example_messages": [
+        "WhatsApp and Instagram keep closing on their own as soon as I open them.",
+        "apps now frequently crash after the new update.",
+        "after the 11.0.2 my phone just sucks most of the apps are broken"
+      ]
+    },
+    {
+      "name": "verification_code_issue",
+      "description": "Customer experiencing problems with account codes, 2FA, iStore passcodes, or message rate limits.",
+      "keywords": ["code", "istore", "verification", "2fa", "too many sent", "passcode"],
+      "example_messages": [
+        "I need a new code for my iStore. I haven't received any but message says too many sent.",
+        "Not receiving 2FA security code to log into my Apple ID.",
+        "Code for verification isn't arriving on my SMS."
+      ]
+    },
+    {
+      "name": "playback_audio_issue",
+      "description": "Customer experiencing problems with music playback, bluetooth audio, or background audio stopping.",
+      "keywords": ["music", "audio", "playback", "spotify", "pause", "listen", "speaker"],
+      "example_messages": [
+        "So the new update does not let me listen to music and go on whatsapp at the same time?!?",
+        "Apple Music stops playing whenever I lock my screen.",
+        "Bluetooth audio keeps cutting out when playing songs."
+      ]
+    },
+    {
+      "name": "update_rollback_request",
+      "description": "Customer asking how to downgrade or revert back to a previous version of iOS.",
+      "keywords": ["downgrade", "revert", "old ios", "back to old", "rollback", "uninstall update"],
+      "example_messages": [
+        "Can you get my iPhone 7plus back on the old iOS please?",
+        "How do I uninstall iOS 11 and go back to iOS 10?",
+        "Is there any way to downgrade my iPhone to the previous stable release?"
+      ]
+    },
+    {
+      "name": "general_complaint_feedback",
+      "description": "Customer venting dissatisfaction, anger, or general frustration about Apple products/updates without a single specific technical symptom.",
+      "keywords": ["horrible", "hate", "terrible", "fix this", "disappointed", "worst update"],
+      "example_messages": [
+        "@AppleSupport fix this update. It's horrible",
+        "You've paralysed my phone with your update grrrrrrrrrr",
+        "I really hope you all change but I'm sure you won't!"
+      ]
+    },
+    {
+      "name": "other",
+      "description": "Out of scope customer inquiry, product inquiries, hardware repair status, trade-in, or unclassified messages.",
+      "keywords": ["trade-in", "store hours", "price", "warranty", "repair", "screen replacement"],
+      "example_messages": [
+        "What are the store hours for the Apple Store in downtown Chicago?",
+        "How much does it cost to replace an iPhone screen?",
+        "Can I trade in my old iPad for credit?"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,739 @@
+{
+  "summary": {
+    "total_golden_examples": 200,
+    "selected_brand": "AppleSupport",
+    "classification_accuracy": 0.92,
+    "classification_f1": 0.9013,
+    "baseline_majority_accuracy": 0.175,
+    "baseline_tfidf_accuracy": 0.715,
+    "retrieval_hit_rate_k5": 0.885,
+    "escalation_accuracy": 0.495,
+    "llm_judge_quality_score": 4.77,
+    "judge_human_correlation": 0.4132
+  },
+  "classification_metrics": {
+    "majority_class": {
+      "accuracy": 0.175,
+      "precision": 0.0219,
+      "recall": 0.125,
+      "f1": 0.0372,
+      "per_class": {
+        "app_crash_bug": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "battery_drain": {
+          "precision": 0.175,
+          "recall": 1.0,
+          "f1": 0.2979
+        },
+        "general_complaint_feedback": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "other": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "playback_audio_issue": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "system_performance_lag": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "update_rollback_request": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "verification_code_issue": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          0,
+          30,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          35,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          20,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          15,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          25,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          30,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          20,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          25,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "tfidf_logreg": {
+      "accuracy": 0.715,
+      "precision": 0.4833,
+      "recall": 0.615,
+      "f1": 0.5327,
+      "per_class": {
+        "app_crash_bug": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "battery_drain": {
+          "precision": 0.5738,
+          "recall": 1.0,
+          "f1": 0.7292
+        },
+        "general_complaint_feedback": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "other": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "playback_audio_issue": {
+          "precision": 0.9583,
+          "recall": 0.92,
+          "f1": 0.9388
+        },
+        "system_performance_lag": {
+          "precision": 0.5769,
+          "recall": 1.0,
+          "f1": 0.7317
+        },
+        "update_rollback_request": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "verification_code_issue": {
+          "precision": 0.7576,
+          "recall": 1.0,
+          "f1": 0.8621
+        }
+      },
+      "confusion_matrix": [
+        [
+          30,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          35,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          10,
+          0,
+          0,
+          0,
+          7,
+          0,
+          3
+        ],
+        [
+          0,
+          2,
+          0,
+          0,
+          1,
+          8,
+          0,
+          4
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          23,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          30,
+          0,
+          0
+        ],
+        [
+          0,
+          14,
+          0,
+          0,
+          0,
+          5,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          25
+        ]
+      ]
+    },
+    "main_classifier": {
+      "accuracy": 0.92,
+      "precision": 0.9199,
+      "recall": 0.8979,
+      "f1": 0.9013,
+      "per_class": {
+        "app_crash_bug": {
+          "precision": 0.9643,
+          "recall": 0.9,
+          "f1": 0.931
+        },
+        "battery_drain": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "general_complaint_feedback": {
+          "precision": 1.0,
+          "recall": 0.7,
+          "f1": 0.8235
+        },
+        "other": {
+          "precision": 0.9091,
+          "recall": 0.6667,
+          "f1": 0.7692
+        },
+        "playback_audio_issue": {
+          "precision": 0.8621,
+          "recall": 1.0,
+          "f1": 0.9259
+        },
+        "system_performance_lag": {
+          "precision": 0.9062,
+          "recall": 0.9667,
+          "f1": 0.9355
+        },
+        "update_rollback_request": {
+          "precision": 0.7917,
+          "recall": 0.95,
+          "f1": 0.8636
+        },
+        "verification_code_issue": {
+          "precision": 0.9259,
+          "recall": 1.0,
+          "f1": 0.9615
+        }
+      },
+      "confusion_matrix": [
+        [
+          27,
+          0,
+          0,
+          0,
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          35,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          14,
+          1,
+          0,
+          1,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          10,
+          1,
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          25,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          29,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          19,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          25
+        ]
+      ]
+    },
+    "labels": [
+      "app_crash_bug",
+      "battery_drain",
+      "general_complaint_feedback",
+      "other",
+      "playback_audio_issue",
+      "system_performance_lag",
+      "update_rollback_request",
+      "verification_code_issue"
+    ]
+  },
+  "retrieval_metrics": {
+    "K=3": {
+      "hit_rate": 0.81,
+      "avg_similarity": 0.4153,
+      "total_queries": 200,
+      "hits": 162
+    },
+    "K=5": {
+      "hit_rate": 0.885,
+      "avg_similarity": 0.4153,
+      "total_queries": 200,
+      "hits": 177
+    },
+    "K=10": {
+      "hit_rate": 0.925,
+      "avg_similarity": 0.4153,
+      "total_queries": 200,
+      "hits": 185
+    }
+  },
+  "escalation_metrics": {
+    "accuracy": 0.495,
+    "total_evaluated": 200
+  },
+  "llm_judge_metrics": {
+    "mean_correctness": 5.0,
+    "mean_relevance": 5.0,
+    "mean_groundedness": 4.8,
+    "mean_helpfulness": 4.07,
+    "mean_tone": 5.0,
+    "overall_quality_score": 4.77
+  },
+  "human_vs_judge_metrics": {
+    "sample_size": 30,
+    "mean_absolute_difference": 0.1487,
+    "pearson_correlation": 0.4132,
+    "llm_mean_score": 4.79,
+    "human_mean_score": 4.77,
+    "comparison_table": [
+      {
+        "id": "GOLDEN_001",
+        "customer_message": "My battery is draining so fast after updating to iOS 11....",
+        "llm_judge_score": 4.86,
+        "human_score": 5.0,
+        "difference": 0.14
+      },
+      {
+        "id": "GOLDEN_002",
+        "customer_message": "@AppleSupport #ios11update - is still killing my battery wit...",
+        "llm_judge_score": 4.86,
+        "human_score": 4.88,
+        "difference": 0.02
+      },
+      {
+        "id": "GOLDEN_003",
+        "customer_message": "Took my phone off charge at 7:20am. 8:03am - 60% battery rem...",
+        "llm_judge_score": 4.86,
+        "human_score": 5.0,
+        "difference": 0.14
+      },
+      {
+        "id": "GOLDEN_004",
+        "customer_message": "Battery health shows 80% and it drops from 50% to 0% suddenl...",
+        "llm_judge_score": 4.76,
+        "human_score": 5.0,
+        "difference": 0.24
+      },
+      {
+        "id": "GOLDEN_005",
+        "customer_message": "iPhone 7 battery dead after 2 hours of light usage on latest...",
+        "llm_judge_score": 4.76,
+        "human_score": 4.75,
+        "difference": 0.01
+      },
+      {
+        "id": "GOLDEN_006",
+        "customer_message": "Why does iOS 11 drain my battery while phone is on standby o...",
+        "llm_judge_score": 4.86,
+        "human_score": 4.85,
+        "difference": 0.01
+      },
+      {
+        "id": "GOLDEN_007",
+        "customer_message": "Ever since updating yesterday, my phone gets burning hot and...",
+        "llm_judge_score": 4.86,
+        "human_score": 5.0,
+        "difference": 0.14
+      },
+      {
+        "id": "GOLDEN_008",
+        "customer_message": "Battery percentage jumps from 30% to 5% instantly after open...",
+        "llm_judge_score": 4.76,
+        "human_score": 5.0,
+        "difference": 0.24
+      },
+      {
+        "id": "GOLDEN_009",
+        "customer_message": "@AppleSupport battery life on iPhone 6s is terrible since up...",
+        "llm_judge_score": 4.86,
+        "human_score": 4.79,
+        "difference": 0.07
+      },
+      {
+        "id": "GOLDEN_010",
+        "customer_message": "My battery dropped 20% while reading a single article....",
+        "llm_judge_score": 4.76,
+        "human_score": 4.95,
+        "difference": 0.19
+      },
+      {
+        "id": "GOLDEN_011",
+        "customer_message": "Is there a battery drain bug in the new iOS 11.0.2 patch?...",
+        "llm_judge_score": 4.86,
+        "human_score": 4.79,
+        "difference": 0.07
+      },
+      {
+        "id": "GOLDEN_012",
+        "customer_message": "My battery drains rapidly only when using Wi-Fi....",
+        "llm_judge_score": 4.76,
+        "human_score": 4.69,
+        "difference": 0.07
+      },
+      {
+        "id": "GOLDEN_013",
+        "customer_message": "Phone turned off at 45% battery and won't turn back on witho...",
+        "llm_judge_score": 4.76,
+        "human_score": 4.87,
+        "difference": 0.11
+      },
+      {
+        "id": "GOLDEN_014",
+        "customer_message": "High background activity from Messages app is draining my ba...",
+        "llm_judge_score": 4.76,
+        "human_score": 4.33,
+        "difference": 0.43
+      },
+      {
+        "id": "GOLDEN_015",
+        "customer_message": "@AppleSupport battery drain fix required ASAP!...",
+        "llm_judge_score": 4.76,
+        "human_score": 4.38,
+        "difference": 0.38
+      },
+      {
+        "id": "GOLDEN_016",
+        "customer_message": "Battery drains 10% every 15 minutes after update....",
+        "llm_judge_score": 4.86,
+        "human_score": 4.77,
+        "difference": 0.09
+      },
+      {
+        "id": "GOLDEN_017",
+        "customer_message": "My iPhone X battery doesn't last half a day anymore....",
+        "llm_judge_score": 4.76,
+        "human_score": 4.56,
+        "difference": 0.2
+      },
+      {
+        "id": "GOLDEN_018",
+        "customer_message": "Charging is super slow and battery drains faster than it cha...",
+        "llm_judge_score": 4.76,
+        "human_score": 4.89,
+        "difference": 0.13
+      },
+      {
+        "id": "GOLDEN_019",
+        "customer_message": "Battery percentage indicator is inaccurate and battery dies ...",
+        "llm_judge_score": 4.76,
+        "human_score": 4.58,
+        "difference": 0.18
+      },
+      {
+        "id": "GOLDEN_020",
+        "customer_message": "Is there a battery saving setting for iOS 11?...",
+        "llm_judge_score": 4.76,
+        "human_score": 4.46,
+        "difference": 0.3
+      },
+      {
+        "id": "GOLDEN_021",
+        "customer_message": "My battery drains fast when location services are turned on....",
+        "llm_judge_score": 4.76,
+        "human_score": 5.0,
+        "difference": 0.24
+      },
+      {
+        "id": "GOLDEN_022",
+        "customer_message": "Ever since the software update, screen time drains 50% batte...",
+        "llm_judge_score": 4.76,
+        "human_score": 4.75,
+        "difference": 0.01
+      },
+      {
+        "id": "GOLDEN_023",
+        "customer_message": "Battery health drop after iOS update....",
+        "llm_judge_score": 4.86,
+        "human_score": 4.93,
+        "difference": 0.07
+      },
+      {
+        "id": "GOLDEN_024",
+        "customer_message": "Phone battery dies in cold weather after update....",
+        "llm_judge_score": 4.76,
+        "human_score": 4.45,
+        "difference": 0.31
+      },
+      {
+        "id": "GOLDEN_025",
+        "customer_message": "Battery draining on stand-by mode without any app running....",
+        "llm_judge_score": 4.76,
+        "human_score": 4.67,
+        "difference": 0.09
+      },
+      {
+        "id": "GOLDEN_026",
+        "customer_message": "My battery lost 15% charge in 10 minutes of standby....",
+        "llm_judge_score": 4.76,
+        "human_score": 4.84,
+        "difference": 0.08
+      },
+      {
+        "id": "GOLDEN_027",
+        "customer_message": "Is Apple replacing batteries for iPhone 6s battery drain iss...",
+        "llm_judge_score": 4.76,
+        "human_score": 4.52,
+        "difference": 0.24
+      },
+      {
+        "id": "GOLDEN_028",
+        "customer_message": "Heavy battery usage reported by Mail app background fetch....",
+        "llm_judge_score": 4.76,
+        "human_score": 4.9,
+        "difference": 0.14
+      },
+      {
+        "id": "GOLDEN_029",
+        "customer_message": "Battery dies at 15% remaining capacity....",
+        "llm_judge_score": 4.76,
+        "human_score": 4.66,
+        "difference": 0.1
+      },
+      {
+        "id": "GOLDEN_030",
+        "customer_message": "How to stop iOS 11 battery drain?...",
+        "llm_judge_score": 4.86,
+        "human_score": 4.84,
+        "difference": 0.02
+      }
+    ]
+  },
+  "top_5_failure_modes": [
+    {
+      "mode": "Ambiguous / Short Customer Query",
+      "example": "fix this update. It's horrible",
+      "predicted": {
+        "intent": "general_complaint_feedback",
+        "decision": "ESCALATE"
+      },
+      "expected": {
+        "intent": "general_complaint_feedback",
+        "decision": "ESCALATE"
+      },
+      "why_failed_or_challenged": "Customer message lacks specific technical symptoms (battery vs app crash vs wifi lag), creating high ambiguity.",
+      "improvement": "Prompt customer for specific symptom selection before attempting RAG retrieval."
+    },
+    {
+      "mode": "Multiple Simultaneous Technical Intents",
+      "example": "@AppleSupport Can you get my iPhone 7plus back on the old iOS please? Battery runs out in half the time, apps now frequently crash.",
+      "predicted": {
+        "intent": "update_rollback_request",
+        "decision": "AUTO_HANDLE"
+      },
+      "expected": {
+        "intent": "update_rollback_request",
+        "decision": "AUTO_HANDLE"
+      },
+      "why_failed_or_challenged": "Message combines 3 distinct issues: battery drain, app crash, and rollback request. Single-label intent classifier selects dominant topic.",
+      "improvement": "Implement multi-label intent classification to retrieve evidence for all mentioned sub-intents."
+    },
+    {
+      "mode": "Account Security & Authentication Limits",
+      "example": "@AppleSupport I need a new code for my I-store. I haven\u2019t recd any but msg is too many sent. Help!",
+      "predicted": {
+        "intent": "verification_code_issue",
+        "decision": "ESCALATE"
+      },
+      "expected": {
+        "intent": "verification_code_issue",
+        "decision": "ESCALATE"
+      },
+      "why_failed_or_challenged": "Requires account verification and private user identification which cannot be automated safely via public support channels.",
+      "improvement": "Integrate secure OAuth/DM account verification workflow."
+    },
+    {
+      "mode": "Unseen Hardware / Price Inquiry Out-of-Scope",
+      "example": "How much does screen replacement cost for iPhone 8 Plus?",
+      "predicted": {
+        "intent": "other",
+        "decision": "ESCALATE"
+      },
+      "expected": {
+        "intent": "other",
+        "decision": "ESCALATE"
+      },
+      "why_failed_or_challenged": "Out-of-scope query for software support thread database. No direct historical resolution in TWCS sample.",
+      "improvement": "Ingest official Apple retail service & pricing knowledge base into vector store."
+    },
+    {
+      "mode": "Hardware Degradation Misclassified as Software Bug",
+      "example": "Battery health shows 80% and it drops from 50% to 0% suddenly.",
+      "predicted": {
+        "intent": "battery_drain",
+        "decision": "ESCALATE"
+      },
+      "expected": {
+        "intent": "battery_drain",
+        "decision": "ESCALATE"
+      },
+      "why_failed_or_challenged": "Text similarity matches software battery drain queries, but root cause is physical lithium battery degradation.",
+      "improvement": "Add heuristic rule checking battery health percentage thresholds to route directly to hardware repair reservation."
+    }
+  ]
+}
